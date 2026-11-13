@@ -29,6 +29,9 @@
 
 </div>
 
+> Fork `samirhvbr/DeskcommCRM`: consulte as [versões da base e do fork](version.md)
+> e o [histórico das nossas modificações](docs/fork/CHANGELOG.md).
+
 ---
 
 > ### ☁️ Rode este CRM em produção com 1 comando

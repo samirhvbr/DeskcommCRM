@@ -793,3 +793,18 @@ Antes de declarar uma task pronta:
     extensão não autoriza remover nem desligar o que já foi distribuído.
 
 Um staff engineer aprovaria? Se não, itera.
+
+## Versionamento deste fork
+
+No fork `samirhvbr/DeskcommCRM`, o bloco JSON de `version.md` registra
+separadamente a versão das nossas modificações, a
+release de referência do Deskcomm e o commit exato da base importada.
+
+Toda entrega própria na `master`, inclusive um sync, atualiza nossa versão e
+`docs/fork/CHANGELOG.md`, conforme `docs/fork/README.md`. Consulte as referências
+com `node scripts/fork-version.mjs`. Não use o número de `package.json` como
+versão do fork e não renumere o changelog, as tags ou as releases do upstream.
+
+Trabalho local em andamento fica separado da entrega publicada. Para enviar
+contribuições ao upstream, use uma branch limpa da `main` de lá; os arquivos e
+as regras desta camada do fork ficam fora desses PRs.
